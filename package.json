@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "npm-run-all --parallel start:backend start:frontend",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "docx-preview": "^0.3.7",
+    "framer-motion": "^12.23.24",
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^5.4.394",
+    "xmldom": "^0.6.0"
+  }
+}
